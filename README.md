@@ -2,7 +2,7 @@
 
 A machine learning project that detects fake product reviews using Natural Language Processing (NLP) techniques and classification algorithms.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -15,13 +15,13 @@ A machine learning project that detects fake product reviews using Natural Langu
 - [Technologies Used](#technologies-used)
 - [Future Improvements](#future-improvements)
 
-## 🎯 Overview
+##  Overview
 
 Fake reviews are a growing problem in e-commerce platforms, misleading consumers and damaging trust. This project aims to automatically detect fake/deceptive reviews using machine learning classification techniques.
 
 The system takes a review text as input and classifies it as either **genuine** or **fake** based on linguistic patterns learned from training data.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Minor Project/
@@ -37,7 +37,7 @@ Minor Project/
 └── research.tex                 # Research paper/documentation (LaTeX)
 ```
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: [Kaggle - Fake Reviews Dataset](https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset)
 - **Features**: 
@@ -46,7 +46,7 @@ Minor Project/
 
 The dataset is downloaded automatically using Kaggle API in the notebook.
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 
@@ -77,7 +77,7 @@ def clean_text(text):
 - **Test Size**: 20%
 - **Random State**: 42 (for reproducibility)
 
-## 🤖 Models Implemented
+##  Models Implemented
 
 Three classification algorithms were trained and compared:
 
@@ -89,7 +89,7 @@ Three classification algorithms were trained and compared:
 
 The **Logistic Regression** model was selected as the final model and saved for deployment.
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -120,7 +120,7 @@ The **Logistic Regression** model was selected as the final model and saved for 
    nltk.download('wordnet')
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Using Pre-trained Model
 
@@ -170,7 +170,7 @@ print(f"Prediction: {'Genuine' if result == 'OR' else 'Fake'}")
    - Evaluate and compare performance
    - Save the best model
 
-## 📈 Results
+##  Results
 
 The models were evaluated using accuracy score and classification metrics:
 
@@ -184,7 +184,7 @@ Visualization includes:
 - Confusion Matrix for Logistic Regression
 - Model comparison chart
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category | Technologies |
 |----------|--------------|
@@ -196,7 +196,7 @@ Visualization includes:
 | **Model Persistence** | joblib |
 | **Environment** | Google Colab / Jupyter Notebook |
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 pandas
@@ -209,7 +209,7 @@ joblib
 kaggle
 ```
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Implement deep learning models (LSTM, BERT)
 - [ ] Add more text features (sentiment scores, review length, etc.)
@@ -218,14 +218,14 @@ kaggle
 - [ ] Expand dataset with more diverse review sources
 - [ ] Add explainability features (LIME/SHAP)
 
-## 👨‍💻 Author
+##  Author
 
 **Priyanshu Yadav**
 
-## 📄 License
+##  License
 
 This project is open-source and available for educational purposes.
 
 ---
 
-⭐ If you found this project helpful, please consider giving it a star!
+ If you found this project helpful, consider giving it a star!
